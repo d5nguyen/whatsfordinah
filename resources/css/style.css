@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color:#aa14ce;
+    font-family: 'Amatic SC', 'Lato', 'Noto Serif KR', sans-serif; 
+    font-weight: 400, 700;
+    font-size: 40px;
+    text-rendering: optimizeLegibility;
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0)), url(img/BuffaloScouting.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+}
+
+.front-page {
+    position: absolute;
+    width: 1140px;
+    top: 5%;
+    left: 5%;
+}
+
+h1 {
+    margin: 0;
+}
