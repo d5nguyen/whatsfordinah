@@ -6,7 +6,7 @@
 
 html {
     background-color: #fff;
-    color:#aa14ce;
+    color:#fff;
     font-family: 'Amatic SC', 'Lato', 'Noto Serif KR', sans-serif; 
     font-weight: 400, 700;
     font-size: 40px;
@@ -16,7 +16,7 @@ html {
 
 .row {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 15px;
 }
 
 header {
@@ -30,10 +30,43 @@ header {
 .front-page {
     position: absolute;
     width: 1140px;
-    top: 5%;
+    top: 3%;
     left: 5%;
 }
 
+
 h1 {
     margin: 0;
+
 }
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 4%;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 70%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.main-nav li a:link,
+.main-nav li a:active {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-botoom 0.2 sec;
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #a104db;
+        
+}
+
