@@ -24,20 +24,13 @@ header {
     height: 100vh;
     background-size: 100% 100%;
     background-position: center;
-    height: 100vh;
-}
-
-.front-page {
-    position: absolute;
-    width: 1140px;
-    top: 3%;
-    left: 5%;
+    display: flex;
 }
 
 
 h1 {
-    margin: 0;
-
+    margin: 0 40px;
+    color: #fff;
 }
 
 .main-nav {
@@ -48,25 +41,32 @@ h1 {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 50px;
     font-size: 70%;
-    font-weight: bold;
     letter-spacing: 2px;
+    font-weight: bold;
 }
 
 
 .main-nav li a:link,
-.main-nav li a:active {
-    color: #ffffff;
+.main-nav li a:visited {
     text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: border-botoom 0.2 sec;
-}
+    border: 0;
+    color: #fff;
+    transition: color 0.2s;
 
+}
 
 .main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 2px solid #a104db;
-        
+.main-nav li a:active { 
+    color: #de15cf;
 }
 
+/*
+.front-page {
+    position: absolute;
+    width: 1140px;
+    top: 3%;
+    left: 5%;
+}
+*/
