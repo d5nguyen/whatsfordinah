@@ -13,6 +13,9 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+html, body {
+    height: 100%;
+}
 
 .row {
     max-width: 1140px;
@@ -140,11 +143,14 @@ h2 {
     opacity: 1;
 }
 
+
+
 .wideview-image {
     margin: 0 0;
-    height: 100%;
-    background-size: cover;  
-    padding: 0 0;
-    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+
     
 }
