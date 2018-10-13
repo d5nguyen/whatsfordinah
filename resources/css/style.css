@@ -140,6 +140,11 @@ h2 {
     opacity: 1;
 }
 
-section .wideview {
+.wideview-image {
+    margin: 0 0;
+    height: 100%;
+    background-size: cover;  
+    padding: 0 0;
+    background-repeat: no-repeat;
     
 }
