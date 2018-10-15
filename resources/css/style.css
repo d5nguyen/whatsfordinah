@@ -23,7 +23,6 @@ html, body {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0)), url(img/BuffaloScouting.jpg);
     height: 100vh;
     background-size: 100% 100%;
     background-position: center;
@@ -33,10 +32,21 @@ header {
 
 }
 
+header.index {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0)), url(img/BuffaloScouting.jpg);
+}
+
 
 h1 {
     margin: 0 40px;
     color: #fff;
+    margin-top: 4%;
+}
+
+
+.other {
+    margin: 0 40px;
+    color: #000;
     margin-top: 4%;
 }
 
@@ -46,7 +56,19 @@ h1 {
     float: right;
     list-style: none;
     margin-top: 4%;
+    margin-right: -15%;
 }
+
+.main-nav-other {
+    font-size: 150%;
+    font-weight: bold;
+    float:right;
+    list-style: none;
+    margin-top: 4%;
+    margin-right: -15%;
+ 
+}
+
 
 .main-nav li {
     display: inline-block;
@@ -57,11 +79,27 @@ h1 {
 }
 
 
+.main-nav-other li {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 70%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
 .main-nav li a:link,
 .main-nav li a:visited {
     text-decoration: none;
     border: 0;
     color: #fff;
+    transition: color 0.2s;
+}
+
+.main-nav-other li a:link,
+.main-nav-other li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #000;
     transition: color 0.2s;
 
 }
@@ -71,6 +109,14 @@ h1 {
     color: #bf62bf;
 }
 
+.main-nav-other li a:hover,
+.main-nav-other li a:active { 
+    color: #bf62bf;
+}
+
+
+
+
 
 .row {
     max-width: 1140px;
@@ -78,7 +124,7 @@ h1 {
 }
 
 section {
-    padding: 80px 0;
+    padding: 20px 0;
 }
 
 
@@ -91,6 +137,12 @@ h2 {
     letter-spacing: 1px;
 }
 
+.section-form h2 {
+    font-size: 200%;
+
+}
+
+
 /* white text */
 
 h3 {
@@ -102,12 +154,11 @@ h3 {
     padding: 10%;
 }
 
-
 .long-copy {
     line-height: 145%;
     width: 70%;
-    margin: auto;
     text-align: center;
+
 }
 
 /* Buttons */
@@ -119,19 +170,26 @@ a {
     letter-spacing: 1px;
 }
 
-.wideview .btn {
+.btn:link,
+.btn:visited {
     display: inline-block;
     padding: 12px 17px;
     text-decoration: none;
-    background-color: rgba(242, 201, 67, 0.58);
+    background-color: rgba(242, 202, 69, 0.60);
     border-radius: 200px;
     position: relative;
-    top: -27%;
+    top: -20%;
     left: 40%;
     display: table;
+    transition: background-color 0.2s;
 }
     
+.btn:hover,
+.btn:active {
+    background-color: #d3a60f
 }
+
+
 
 /* Sections */
 
@@ -154,7 +212,7 @@ a {
 
 .squarepix {
     margin-top: 0;
-    margin-bottom: 45%;
+    margin-bottom: 30%;
     width: 100%;
     padding: 5%;
 }
@@ -185,6 +243,7 @@ a {
 
 #maine-sunrise {    
     background-image: url('../img/MaineMtnOverlook.jpg');
+    margin-top: 5%;
 }
 
 #cheeto-dust {
@@ -200,3 +259,67 @@ a {
     background-image: url('../img/sunsetlookingout.jpg');
 
 }
+
+/*-------------------------------------------------*/
+/* FORM*/
+/*-------------------------------------------------*/
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+
+/*-------------------------------------------------*/
+/*FOOTER*/
+/*-------------------------------------------------*/
+
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 80%;
+}
+
+.social-links {
+   text-align: center;
+}
+
+footer p {
+    color:#6f6f6f;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 70%;
+    letter-spacing: 2px;
+}
+
+ 
+.social-links li {
+    color:#000;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    margin: 0 5%;
+    
+}
+
