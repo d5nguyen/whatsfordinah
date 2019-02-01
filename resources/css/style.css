@@ -24,11 +24,12 @@ html, body {
 
 header.index {
     background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0)), url(img/BuffaloScouting.jpg);
-    height: 100vh;
+    height: 153vh;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
+ 
 }
 
 /*issues with the header alignment h1 and .main-nav*/
@@ -110,10 +111,6 @@ h1 {
 .main-nav-other li a:active { 
     color: #bf62bf;
 }
-
-
-
-
 
 .row {
     max-width: 1140px;
