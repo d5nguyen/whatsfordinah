@@ -24,7 +24,7 @@ html, body {
 
 header.index {
     background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0)), url(img/BuffaloScouting.jpg);
-    height: 111vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
