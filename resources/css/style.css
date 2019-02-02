@@ -22,23 +22,25 @@ html, body {
     margin: 0 15px;
 }
 
+h1 { 
+    margin-left: 6%;
+    color: #fff;
+    margin-top: 4%;
+    float: left;
+}
+
 header.index {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0)), url(img/BuffaloScouting.jpg);
+/*    background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0)), */
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
- 
+    background-image: url('../../resources/img/Antelopewalk.jpg');
 }
 
 /*issues with the header alignment h1 and .main-nav*/
-h1 { 
-    margin-left: 6%;
-    color: #fff;
-    margin-top: 4%;
-    float: left
-}
+
 
 .other {
     margin-left: 6%;
